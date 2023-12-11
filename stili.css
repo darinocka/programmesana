@@ -1,6 +1,6 @@
 body {
     background-color: rgb(51, 29, 44);
-  margin: 10px;
+
 }
 .head {
     background-color: rgb(63, 46, 62);
@@ -22,7 +22,7 @@ margin-top: 2%;
     color: rgb(239, 225, 209); 
     border: 2px solid rgb(239, 225, 209);
     border-radius: 25%;
-    width: 120px;
+    width: 170px;
     font-family: 'Cutive', sans-serif;
 }
 
@@ -31,7 +31,7 @@ margin-top: 2%;
     color: rgb(239, 225, 209); 
     border: 2px solid rgb(239, 225, 209);
     border-radius: 25%;
-    width: 120px;
+    width: 170px;
     font-family: 'Cutive', sans-serif;
 }
 
@@ -40,7 +40,16 @@ margin-top: 2%;
     color: rgb(239, 225, 209); 
     border: 2px solid rgb(239, 225, 209);
     border-radius: 25%;
-    width: 120px;
+    width: 170px;
+    font-family: 'Cutive', sans-serif;
+}
+
+.button5 {
+    background-color: rgb(167, 130, 149); 
+    color: rgb(239, 225, 209); 
+    border: 2px solid rgb(239, 225, 209);
+    border-radius: 25%;
+    width: 170px;
     font-family: 'Cutive', sans-serif;
 }
 
@@ -49,14 +58,14 @@ margin-top: 2%;
     color: rgb(239, 225, 209); 
     border: 2px solid rgb(239, 225, 209);
     border-radius: 25%;
-    width: 120px;
+    width: 170px;
     font-family: 'Cutive', sans-serif;
 }
 
 
 .info1 {
-    height: 750px;
-    width: 500px;
+    height: 700px;
+    width: 300px;
     background-color: rgb(92, 84, 112);
     color: rgb(239, 225, 209);
     font-family: 'Cutive', sans-serif;
@@ -66,8 +75,8 @@ margin-top: 2%;
 
 .info2 {
    
-    height: 750px;
-    width: 500px;
+    height: 700px;
+    width: 300px;
     background-color: rgb(71, 78, 104);
     color: rgb(239, 225, 209);
     font-family: 'Cutive', sans-serif;
@@ -76,21 +85,30 @@ margin-top: 2%;
 
 .info3 {
     
-        height: 750px;
-        width: 500px;
+        height: 700px;
+        width: 300px;
         background-color: rgb(67, 91, 102);
         color: rgb(239, 225, 209);
         font-family: 'Cutive', sans-serif;
    
 }
 
+.info4 {   
+    height: 700px;
+    width: 300px;
+    background-color: rgb(100, 14, 30);
+    color: rgb(239, 225, 209);
+    font-family: 'Cutive', sans-serif;
+
+}
+
 .container {
-width: 80%;
+width: 100%;
 margin-top: 7%;
     display: flex;
     flex-direction: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     
 
@@ -99,6 +117,7 @@ margin-top: 7%;
 .head1 {
 background-color:rgb(145, 130, 184);
 color: rgb(239, 225, 209);
+padding: 13px;
 text-align: center;
 font-family: 'Bevan', sans-serif;
 }
@@ -106,6 +125,7 @@ font-family: 'Bevan', sans-serif;
 .head2 {
 background-color: rgb(136, 147, 189);
 color: rgb(239, 225, 209);
+padding: 13px;
 text-align: center;
 font-family: 'Bevan', sans-serif;
 }
@@ -113,27 +133,39 @@ font-family: 'Bevan', sans-serif;
 .head3 {
 background-color:rgb(110, 141, 155);
 color: rgb(239, 225, 209);
+padding: 13px;
 text-align: center;
 font-family: 'Bevan', sans-serif;
 }
 
+.head4 {
+    background-color:rgb(131, 38, 55);
+    color: rgb(239, 225, 209);
+    text-align: center;
+    font-family: 'Bevan', sans-serif;
+    }
+
+
+
 .container-fluid {
     all: 100%;
+    background-color: rgb(167, 130, 149);
+    padding: 3%;
     position: relative;
     top: 150px;
     }
 
 .foto1 {
    height: 800px;
-margin-left: 27%;
+margin-left: 23%;
 }
 .foto2 {
     height: 800px;
-margin-left: 27%;
+margin-left: 23%;
 }
 .foto3 {
     height: 800px;
-margin-left: 27%;
+margin-left: 23%;
 }
 
     footer {
@@ -142,7 +174,7 @@ margin-left: 27%;
        color: rgb(239, 225, 209);
        font-family: 'Cutive', sans-serif;
        position: relative;
-       top: 200px;
+       top: 150px;
     }
 
 .social {
